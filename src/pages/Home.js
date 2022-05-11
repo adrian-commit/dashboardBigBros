@@ -19,15 +19,20 @@ const Home = () => {
      console.log(setProducts)
     return (
         <div>
+          <main> <h2>Productos</h2> </main>
          {!products
                   ? "cargando"
                   : products.map((product, index) => {
                       return (
+                        
                         <React.Fragment key={product.id}>
                           <div>
+                          <main> <h4>------------------------</h4> </main>
+                            <h3> Tipo: </h3>
                             <div key={index.id}>{product.name}</div>
+                            <h4> Precio: </h4>
                             <div key={index.id}>{product.price}</div>
-                            <div key={index.id}>{product.description}</div>
+                            <h4> Cantidad: </h4>
                             <div key={index.id}>{product.amount}</div>
                           </div>
                         </React.Fragment>
