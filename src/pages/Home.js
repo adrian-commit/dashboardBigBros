@@ -27,7 +27,7 @@ const Home = () => {
                         
                         <React.Fragment key={product.id}>
                           <div>
-                          <main> <h4>------------------------</h4> </main>
+                          <main> <h4>********************************</h4> </main>
                             <h3> Tipo: </h3>
                             <div key={index.id}>{product.name}</div>
                             <h4> Precio: </h4>

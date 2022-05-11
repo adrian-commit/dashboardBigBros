@@ -25,7 +25,7 @@ const User = () => {
                       return (
                         <React.Fragment key={user.id}>
                           <div>
-                          <main> <h4>------------------------</h4> </main>
+                          <main> <h4>-------------------------------</h4> </main>
                           <h3> Nombre y Apellido: </h3>
                             <div key={index.id}>{user.first_name}</div>
                             <div key={index.id}>{user.last_name}</div>
