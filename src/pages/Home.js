@@ -28,12 +28,12 @@ const Home = () => {
                         <React.Fragment key={product.id}>
                           <div>
                           <main> <h4>********************************</h4> </main>
-                            <h3> Tipo: </h3>
-                            <div key={index.id}>{product.name}</div>
+                          <h3> Tipo: </h3>
+                            <ul><div key={index.id}>{product.name}</div></ul>
                             <h4> Precio: </h4>
-                            <div key={index.id}>{product.price}</div>
+                            <ul><div key={index.id}>{product.price}</div></ul>
                             <h4> Cantidad: </h4>
-                            <div key={index.id}>{product.amount}</div>
+                            <ul><div key={index.id}>{product.amount}</div></ul>
                           </div>
                         </React.Fragment>
                       );

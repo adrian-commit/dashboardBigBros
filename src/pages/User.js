@@ -27,12 +27,12 @@ const User = () => {
                           <div>
                           <main> <h4>-------------------------------</h4> </main>
                           <h3> Nombre y Apellido: </h3>
-                            <div key={index.id}>{user.first_name}</div>
-                            <div key={index.id}>{user.last_name}</div>
+                            <ul><div key={index.id}>{user.first_name}</div></ul>
+                            <ul><div key={index.id}>{user.last_name}</div></ul>
                             <h4> Email: </h4>
-                            <div key={index.id}>{user.email}</div>
+                            <ul><div key={index.id}>{user.email}</div></ul>
                             <h4> Dirección: </h4>
-                            <div key={index.id}>{user.address}</div>
+                            <ul><div key={index.id}>{user.address}</div></ul>
                           </div>
                         </React.Fragment>
                       );
